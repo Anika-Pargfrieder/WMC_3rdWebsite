@@ -23,4 +23,7 @@ a:visited{
 
 img {
     float: right;
+    width: 12rem;
+    display: block;
+    border-radius: 10%;
 }
