@@ -1,5 +1,15 @@
-body {
+html {
     font-family: "Lucida Sans", sans-serif;
+    background-image: url("background.png");
+}
+body {
+    background-color: lightgray;
+    margin: 2%;
+    padding: 2rem;
+}
+
+table {
+    clear: both;
 }
 
 a {
@@ -9,4 +19,8 @@ a {
 
 a:visited{
     color: green;
+}
+
+img {
+    float: right;
 }
