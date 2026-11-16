@@ -3,13 +3,25 @@ html {
     background-image: url("background.png");
 }
 body {
-    background-color: lightgray;
+    background-color: rgb(140, 140, 140, 0.8);
     margin: 2%;
     padding: 2rem;
 }
+ul {
+    list-style-type: circle;
+}
+li  > ul {
+    list-style-type: square;
+}
 
-table {
+td {
     clear: both;
+    border: solid black 2px;
+
+}
+table{
+    border: solid black 2px;
+    border-radius: 0.4rem;
 }
 
 a {
@@ -26,4 +38,8 @@ img {
     width: 12rem;
     display: block;
     border-radius: 10%;
+}
+
+footer {
+    font-style: italic;
 }
