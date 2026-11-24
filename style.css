@@ -2,7 +2,8 @@ html {
     font-family: "Lucida Sans", sans-serif;
     background-image: url("background.png");
 }
-body {
+
+    body {
     background-color: rgb(140, 140, 140, 0.8);
     margin: 2%;
     padding: 2rem;
@@ -15,13 +16,13 @@ li  > ul {
 }
 
 td {
-    clear: both;
     border: solid black 2px;
 
 }
 table{
     border: solid black 2px;
     border-radius: 0.4rem;
+    clear: both;
 }
 
 a {
